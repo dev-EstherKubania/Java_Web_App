@@ -1,0 +1,105 @@
+/* General styles for the art gallery */
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Style each art item */
+.art-item {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #363131;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for images to ensure consistency */
+.art-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Style for item title and description */
+.art-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.art-item .buy-btn {
+    background-color: #d4af37;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.art-item .buy-btn:hover {
+    background-color: #b89d3b;
+}
+
+/* Custom styles for the checkout dialog */
+#checkout-dialog {
+    display: none;
+}
+
+.ui-dialog {
+    background-color: #000;
+    color: #FFD700;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+}
+
+.ui-dialog-titlebar {
+    background-color: #FFD700;
+    color: #FFD700;
+    border: none;
+    border-radius: 8px 8px 0 0;
+}
+
+.ui-dialog-title {
+    font-size: 1.5em;
+}
+
+/* Style the form inside the dialog */
+#checkout-form {
+    background-color: #222020;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#checkout-form label {
+    color: #ddd;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#checkout-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #FFD700;
+    border-radius: 4px;
+    background: #333;
+    color: #FFD700;
+}
+
+#checkout-form button {
+    background-color: #FFD700;
+    color: #000;
+    border: 1px solid #FFD700;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#checkout-form button:hover {
+    background-color: #FFC107;
+    border-color: #FFC107;
+}

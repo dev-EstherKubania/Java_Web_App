@@ -1,0 +1,76 @@
+/* Container for the gallery */
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Each art item */
+.art-item {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Title placed above the image */
+.art-item .art-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+/* Image styling */
+.art-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for the images */
+.art-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Text below the image */
+.art-item p {
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    margin: 0;
+}
+
+/* Magnific Popup content styling */
+.mfp-content {
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+/* Description styling */
+.art-description {
+    padding: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+}

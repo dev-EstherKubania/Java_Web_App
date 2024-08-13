@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* Gradient background for the gallery */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #000000, #434343);
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #000;
+    color: #d4af37; /* Gold color */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d4af37; /* Gold border */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #000;
+    color: #d4af37; /* Gold color */
+    padding: 15px;
+    text-align: center;
+}
+
+nav button {
+    background-color: #d4af37; /* Gold color */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #bfa35f; 
+}
+
+/* Footer styling */
+footer {
+    background-color: #000;
+    color: #d4af37; /* Gold color */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* To ensure the footer doesn't overlap content */
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; 
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* Link styling */
+a {
+    color: #d4af37; /* Gold color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+button {
+    background-color: #d4af37; 
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #bfa35f; 
+}
+/* Style for the image wrapper to center the image */
+.image-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Make the image responsive */
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}

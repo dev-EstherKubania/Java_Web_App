@@ -1,0 +1,60 @@
+<!-- Student Name: -->
+<!-- Student Number: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Exhibition - Brush & Muse Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/current-exhibition.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+
+    <div id="header"></div> <!-- Header will be loaded here -->
+
+    <main>
+        <h1>Current Exhibition</h1>
+        <p>Details about the current exhibition.</p>
+        <button id="bookTourBtn">Book a Tour</button>
+
+        <div id="bookTourForm" style="display: none;">
+            <form id="tourForm">
+                <label for="tourName">Name:</label>
+                <input type="text" id="tourName" name="name" required>
+                <label for="tourEmail">Email:</label>
+                <input type="email" id="tourEmail" name="email" required>
+                <label for="tourDate">Date:</label>
+                <input type="date" id="tourDate" name="date" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- Slider for exhibition images -->
+        <div class="slider">
+            <div><img src="images/exhibit1.jpg" alt="Exhibit 1"></div>
+            <div><img src="images/exhibit2.jpg" alt="Exhibit 2"></div>
+            <div><img src="images/exhibit3.jpg" alt="Exhibit 3"></div>
+            <div><img src="images/exhibit4.jpg" alt="Exhibit 4"></div>
+            <div><img src="images/exhibit5.jpg" alt="Exhibit 5"></div>
+            <div><img src="images/exhibit6.jpg" alt="Exhibit 6"></div>
+            <div><img src="images/exhibit7.jpg" alt="Exhibit 7"></div>
+            <div><img src="images/exhibit8.jpg" alt="Exhibit 8"></div>
+            <div><img src="images/exhibit9.jpg" alt="Exhibit 9"></div>
+            <div><img src="images/exhibit10.jpg" alt="Exhibit 10"></div>
+        </div>
+    </main>
+
+    <div id="footer"></div> <!-- Footer will be loaded here -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/include-html.js"></script>
+    <script src="js/current-exhibition.js"></script>
+</body>
+</html>
